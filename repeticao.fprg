@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="juju-"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-27 11:38:55 "/>
+        <attribute name="created" value="anVqdS07REVTS1RPUC1LRlFJRzJUOzIwMjEtMDUtMjU7IjEyOjAyOjQ2ICI7Mjc2NQ=="/>
+        <attribute name="edited" value="anVqdS07REVTS1RPUC1LRlFJRzJUOzIwMjEtMDUtMjc7IjExOjM4OjU1ICI7MTsyODgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, fim" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="fim" expression="90"/>
+            <while expression="numero&lt;=fim">
+                <output expression="&quot;Tabuada do 9: &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
