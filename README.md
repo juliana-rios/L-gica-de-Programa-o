@@ -1,2 +1,2 @@
-# L-gica-de-Programa-o
+# Logica-de-Programação
 Exercicios para treinar a lógica
